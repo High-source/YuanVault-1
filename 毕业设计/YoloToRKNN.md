@@ -60,6 +60,13 @@ $ python3
 >>> from rknn.api import RKNN
 ~~~
 
+#### 快速例子
+运行example中的test.py
+遇到版本兼容问题，更换使用旧版本onnx
+~~~bash
+pip uninstall onnx
+pip install onnx==1.16.1
+~~~
 
 ## 3. Rknn-Toolkit-lite2
 1. 
