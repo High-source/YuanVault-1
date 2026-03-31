@@ -53,4 +53,13 @@ pip install -r ./requirements_cp310-2.3.2.txt
 ~~~bash
 pip install rknn_toolkit2-2.3.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
 ~~~
-5.  
+5.  验证安装
+	没有报错则安装成功
+~~~bash
+$ python3
+>>> from rknn.api import RKNN
+~~~
+
+
+## 3. Rknn-Toolkit-lite2
+1. 
